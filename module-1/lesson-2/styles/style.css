@@ -1,0 +1,26 @@
+.text{
+   color:#ff050575;
+   text-align: justify;
+   text-transform: uppercase;
+   /* text-decoration-color: red;
+   text-decoration-line: underline ;
+   text-decoration-style: double; */
+   /* text-decoration: underline  wavy lime; */
+   text-indent: 400px;
+   font-size: 45px;
+   font-weight: 700;
+   font-style: normal;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 80px;
+   letter-spacing:3px;
+   word-spacing: 50px;
+
+
+}
+
+
+/* RED GREEN BLUE
+
+  255 , 0 , 0
+
+*/

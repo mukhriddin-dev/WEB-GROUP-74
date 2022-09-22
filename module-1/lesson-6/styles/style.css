@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 1241px;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  background-color: crimson;
+}
+
+nav{
+  background-color: lime;
+}
+
+.logo:hover{
+  color:#fff;
+  cursor: pointer ;
+}
+
+.logo:active{
+  color: rgb(255, 162, 0);
+}
+
+section{
+  background-color: azure;
+}
+
+.intro{
+  background-color: lime;
+}
+
+
+.wrapper-hero{
+  background-color: coral;
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  margin: 6px;
+  display: inline-block;
+  margin-left: 80px;
+  box-shadow:inset 3px 3px 100px 1px rgb(0, 0, 0) , inset 3px 3px 100px 1px rgb(255, 0, 0);
+}
+
+.card:hover{
+  background-color: yellow;
+  box-shadow:inset 0px 0px 100px 0px rgb(0, 0, 0);
+}
+
+.card:active{
+  background-color: lime;
+}
+
+.hero{
+  background-color: aqua;
+}
+
+.wrapper-zero{
+  background-color:rgb(255, 255, 255);
+}
+.zero{
+  background-color: blueviolet;
+}
+
+footer{
+  background-color: slategray;
+}
+
+a:visited{
+  color:red;
+}
+
+/* box-shadow   , pseudo class*/
+
+ /* hover , active , visited , focus ,  */

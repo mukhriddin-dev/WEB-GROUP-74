@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+.border{
+  border: 1px solid #000;
+}
+
+.icon:hover{
+fill:gold;
+}
+
+.active:hover{
+  fill:red;
+}
+
+
+.bx{
+  color:aqua;
+  font-size: 105px;
+}
+
+.bx:hover{
+  color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper {
+  display: grid;
+  height: 600px;
+  background-color: blue;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(4, 1fr);
+  padding: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+.card:nth-child(6) {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: lime;
+  animation-name: animateBox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.card:nth-child(6):hover {
+  animation-play-state: paused;
+}
+
+.card:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: coral;
+}
+
+.wrapper-item {
+  display: grid;
+  height: 800px;
+  background-color: rgb(0, 255, 221);
+  gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 70px 85vh 70px;
+  grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+  margin: 20px auto;
+
+  padding: 10px;
+}
+
+.item {
+  background-color: #fff;
+}
+
+.item:nth-child(1) {
+  background-color: crimson;
+  grid-area: header;
+}
+
+.item:nth-child(2) {
+  background-color: rgb(193, 220, 20);
+  grid-area: sidebar;
+}
+
+.item:nth-child(3) {
+  background-color: rgb(131, 134, 112);
+  grid-area: main;
+}
+
+.item:nth-child(8) {
+  background-color: rgb(15, 11, 147);
+  grid-area: footer;
+}
+
+.item:nth-child(7) {
+  background-color: rgb(121, 116, 255);
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+@keyframes animateBox {
+  0% {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: lime;
+  }
+
+  25% {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: rgb(116, 255, 116);
+  }
+
+  50% {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: rgb(116, 255, 116);
+  }
+
+  75% {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(112, 102, 255);
+  }
+
+  100% {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: lime;
+  }
+} */

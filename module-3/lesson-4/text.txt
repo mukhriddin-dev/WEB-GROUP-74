@@ -1,0 +1,40 @@
+Ternary operator
+"switch" statement
+
+
+Loops: while and for ( while, do..while and for(..;..;..) )
+Function and function types
+Function arrow func / func expression / func declaration
+function parametrs
+Arguments
+Default parametr
+Array
+Array simple methods
+.push(4);
+
+.pop();
+
+.shift();
+
+.unshift(0);
+
+.concat('c');
+
+.join('-');
+
+.slice(1);
+
+.indexOf('b');
+
+.includes('c');
+
+String methods
+String.length
+String.trim()
+String.toUpperCase();
+String.toLowerCase();
+String.substring(x,y);
+String.search();
+String.trim();
+String.match();
+charAt(n)

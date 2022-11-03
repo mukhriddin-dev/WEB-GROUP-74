@@ -1,0 +1,40 @@
+MONTH 3 , DAY 7
+
+String methods
+String.length  // uzunligi
+String.trim() // white spaces clear
+String.toUpperCase(); // katta matn
+String.toLowerCase(); // kichik matn
+
+String.substring(x,y);  
+String.search();
+String.match();
+charAt(n)
+
+
+Object
+
+to bulild methods
+
+Object methods
+
+Object.keys(testScore); // gives all keys
+Object.values(testScore); // gives all values
+Object.entries(testScore)
+Object.fromEntries(testScore)
+
+
+
+Locating DOM elements using selectors
+
+getElementsByTagName()
+
+getElementsByClassName()
+
+getElementById()
+
+querySelector()
+
+querySelectorAll()
+
+HTML DOM Element style Property

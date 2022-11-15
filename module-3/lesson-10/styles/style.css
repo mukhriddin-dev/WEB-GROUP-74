@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.box {
+  background-color: rgb(169, 255, 169);
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.card {
+  transition: all 0.5s ease-in-out;
+  height: 500px;
+}
+
+.swipe {
+  transform: translateX(120%);
+}

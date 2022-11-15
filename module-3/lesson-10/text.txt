@@ -1,0 +1,19 @@
+MONTH 3 , DAY 10
+
+
+setInterval() / clearInterval( )
+setTimeOut() / clearTimeout( )
+
+JavaScript Date Objects [new Date()]
+
+classList
+
+add()
+remove()
+toggle()
+contains()
+
+Create Dynamic Element In Javascript 
+
+PRACTICE SLIDER ☑️
+amaliyot (timer) 🕙

@@ -1,0 +1,46 @@
+MONTH 3 , DAY 8
+
+HTML DOM Element style Property
+
+Events
+
+addEvenetListener / on (difference)
+
+JavaScript DOM events
+
+Mouse events:
+
+click
+
+dblclick
+
+mouseover
+
+mouseout
+
+mouseup
+
+mouseup
+
+mousemove
+
+Keyboard events:
+
+Keydown
+Keyup
+Kuypress
+
+Form events:
+
+focus
+submit
+blur
+change
+input
+Scroll & window Event
+
+scroll
+DOMContentLoaded
+load
+
+

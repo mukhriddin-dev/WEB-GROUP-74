@@ -1,0 +1,111 @@
+1. JS da nechta data type bor va sanab bering ? 🔴
+2. variables (o'zgaruvchilar) va ularni farqi. 🔴
+3. Type conversions => - - 🔴 
+4. String methods 🔴
+5. Function and function types (difference) 🔴
+6. Math object => - 🔴
+7. logical operators => || , && 🔴
+8. (comparing operators) (taqqoslash operatorlari) , => 🔴
+9.  conditional operators - 🔴
+10. switch statements =>  🔴
+11. "use strict" statements how to apply => - 
+12. NodeList vs HTMLCollection => - 🔴 
+13. CSSStyledecloration , HTML elements selectors => -
+14. Event objects => -
+15. Array  nima ? 🔴
+16. typeof NaN , Infinity , Undefined , null , "false"*1 => 🔴
+17. Object , methods . . . => - -   
+18. Array methods => 
+19. attribute monupulation => - 🔴 
+20. setInterval , setTimeOut , clearInterval , clearTimeout 🔴
+21. Primative vs Non Primative difference 🔴
+22. DOM events => - - 🔴
+23. classList , methods =>  🟢
+24. Dynamic elements => -  
+25. How to build objects in methods
+26. default parametrs in function
+27. operator ternary 
+28. JavaScript NIMA ? 🔴
+29. DOMTokenList ?
+
+
+
+1. Abdumutalipov Ozodbek => 🔴 🟢 🔴 => PROEKT => 
+2. Marufjonov Asilbek =>  🔴 🔴 🔴 => PROEKT va DOCUMENT
+3. Abdurashidov Bobomurod => 🔴 🟢 🔴 => PROEKT va DOCUMENT
+4. Ziyodaliyev Bahodir => 🟢 🟢 🟢
+5. Mirg'aniyev Mirholim => 🔴 🟢 🔴 => PROEKT va DOCUMENT
+6. Hamzayev Muhammadali => 🟢 🟢 🔴
+7. Tohirjonov Abdulaziz => 🟢 🟢 🟢
+8. Sherdor Abdurasulov => 🟢 🟢
+9. To'xtamurodov Ozodbek => 🟢 
+10. Umaraliyev Saidqobul => 🟢 🔴 
+11. Murodova Gulnoza => 🔴 🟢 🔴  => PROEKT va DOCUMENT
+12. Qudratova Sevinch => 🔴 🟢  🟢 
+13. Teshaboyeva Saodat => 🔴 🔴 🔴  =>  PROEKT va DOCUMENT
+14. Shoxruh Hasanov => 🔴 🔴  =>    PROEKT va DOCUMENT
+15. Jahongir Ortiqboyev => 🟢 🟢
+16. Yo'ldoshev Shaxzod => 🔴 🟢 🔴 => PROEKT va DOCUMENT
+17. Jumaniyozov Ro'zimat =>  🔴  🟢  
+
+
+
+
+Abdumutalipov Ozodbek => 
+1. JS da nechta data type bor va sanab bering ? 🔴
+2. variables (o'zgaruvchilar) va ularni farqi. 🔴
+27. operator ternary 
+28. JavaScript NIMA ? 🔴
+29. DOMTokenList ?
+
+Abdurashidov Bobomurod =>
+
+21. Primative vs Non Primative difference 🔴
+22. DOM events => - - 🔴
+23. classList , methods =>  🟢
+24. Dynamic elements => -  
+
+
+Mirg'aniyev Mirholim => 
+
+6. Math object => - 🔴
+7. logical operators => || , && 🔴
+8. (comparing operators) (taqqoslash operatorlari) , => 🔴
+9.  conditional operators - 🔴
+10. switch statements =>  🔴
+
+
+
+Murodova Gulnoza => 
+5. Function and function types (difference) 🔴
+11. "use strict" statements how to apply => - 
+12. NodeList vs HTMLCollection => - 🔴 
+13. CSSStyledecloration , HTML elements selectors => -
+
+
+
+Teshaboyeva Saodat => 
+
+15. Array  nima ? 🔴
+16. typeof NaN , Infinity , Undefined , null , "false"*1 => 🔴
+17. Object , methods . . . => - -   
+18. Array methods => 
+19. attribute monupulation => - 🔴 
+
+
+Shoxruh Hasanov => 
+
+20. setInterval , setTimeOut , clearInterval , clearTimeout 🔴
+21. Primative vs Non Primative difference 🔴
+22. DOM events => - - 🔴
+23. classList , methods =>  🟢
+24. Dynamic elements => -  
+
+Yo'ldoshev Shaxzod => 
+
+11. "use strict" statements how to apply => - 
+10. switch statements =>  🔴
+12. NodeList vs HTMLCollection => - 🔴 
+
+
+

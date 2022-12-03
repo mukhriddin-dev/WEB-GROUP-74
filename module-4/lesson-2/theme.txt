@@ -1,0 +1,13 @@
+Function Scope, Block Scope, Global Scope , Local scope
+Closuer =>
+Template tag => closest()
+
+
+previousElementSibling, nextElementSibling, parentNode
+
+Optional chaining (?.)
+
+Global scope
+Function scope
+Local scope 
+Block Scope

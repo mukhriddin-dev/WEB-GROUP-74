@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  background-image: url("../images/back-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu{
+  background-color: rgba(255, 255, 255, 0.409);
+  backdrop-filter: blur(5px);
+
+}
+
+
+.card img{
+  width: 220px;
+  height: 220px;
+}
+
+.card p{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+main{
+  min-height: 96vh;
+}
+
+.wrapper-time{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(280px, 1fr));
+  gap:12px;
+}
+
+
+.bg-sucess{
+  background-color: lime !important;
+}
+
+table{
+  overflow-x: scroll;
+}

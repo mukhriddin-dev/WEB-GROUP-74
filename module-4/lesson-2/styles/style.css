@@ -1,0 +1,25 @@
+.card{
+   width: 300px;
+   margin: 8px;
+}
+
+.box{
+   padding: 80px;
+   background-color: coral;
+   margin: 7px;
+}
+
+.accardion-btn{
+   background-color: seagreen;
+   padding: 16px;
+   font-weight: bold;
+   color:#fff;
+   margin: 2px 0;
+}
+.accardion-content{
+   /* padding: 10px; */
+   background-color: azure;
+   max-height: 0;
+   overflow: hidden;
+   transition: all 0.5s ease-in-out;
+}

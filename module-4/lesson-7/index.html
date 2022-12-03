@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+   <link rel="stylesheet" href="./styles/style.css" />
+   <title>lesson-7</title>
+</head>
+
+<body>
+   <main>
+      <div class="contianer">
+         <div class="row p-4 shadow menu">
+
+            <div class="col-md-6 d-flex justify-content-end">
+               <h1 id="select_region">Toshkent</h1>
+            </div>
+            <div class="col-md-6 d-flex justify-content-start">
+               <select id="region" class="form-select w-25">
+
+               </select>
+            </div>
+         </div>
+
+         <div class="row mt-2 shadow-lg p-4">
+
+            <div class="wrapper-time">
+
+               <div class="card p-5">
+                  <img src="./images/tong.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Tong
+                     </p>
+                  </div>
+
+               </div>
+
+
+               <div class="card p-5">
+                  <img src="./images/sunrise.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Quyosh
+                     </p>
+                  </div>
+
+               </div>
+
+
+               <div class="card p-5">
+                  <img src="./images/sun.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Peshin
+                     </p>
+                  </div>
+
+               </div>
+
+
+               <div class="card p-5">
+                  <img src="./images/sunsasr.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Asr
+                     </p>
+                  </div>
+
+               </div>
+
+
+               <div class="card p-5">
+                  <img src="./images/shom.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Shom
+                     </p>
+                  </div>
+
+               </div>
+
+
+               <div class="card p-5">
+                  <img src="./images/moon.svg" alt="rasm" class="rounded-circle d-block mx-auto mt-2">
+
+                  <div class="card-body">
+                     <h1 class="fs-1 text-center">
+                        06:00
+                     </h1>
+                     <p class="text-center">
+                        Hufton
+                     </p>
+                  </div>
+
+               </div>
+
+            </div>
+
+
+            <div class="col-12 bg-white p-4 my-2 rounded-2 mx-auto">
+               <h3 class="text-center">
+                  Haftalik Namoz vaqtlari
+               </h3>
+            </div>
+
+            <div class="col-12 bg-white p-3">
+               <table class="table table-striped table-hover table-bordered table-responsive">
+                  <thead>
+                     <tr>
+                       <th>kun</th>
+                        <th>Viloyat</th>
+                        <th>sana</th>
+                        <th>Tong saharlik</th>
+                        <th>Quyosh</th>
+                        <th>Peshin</th>
+                        <th>Asr</th>
+                        <th>Shom</th>
+                        <th>Hufton</th>
+                        
+                     </tr>
+                  </thead>
+
+                  <tbody id="weekresult">
+                    
+                  </tbody>
+               </table>
+            </div>
+
+         </div>
+      </div>
+   </main>
+</body>
+
+<script src="./scripts/utils.js"></script>
+<script src="./script.js"></script>
+
+</html>

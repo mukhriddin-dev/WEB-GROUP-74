@@ -1,0 +1,20 @@
+
+4.Synchronous and Asynchronous What is the difference between synchronous and asynchronous code in JavaScript ?
+5.fetch
+6. REST api
+
+
+API so'rovlari:
+
+ Bugungi namoz vatlarini olish uchun:
+  https://islomapi.uz/api/present/day?region=Toshkent
+
+ Shu hafta uchun namoz taqvimi olish uchun: 
+
+ https://islomapi.uz/api/present/week?region=Toshkent
+
+ Bir kun uchun namoz taqvimini olish uchun: 
+ https://islomapi.uz/api/daily?region=Toshkent&month=4=4&day=5
+
+ Bir oylik namoz taqvimini olish uchun: 
+ https://islomapi.uz/api/monthly?region=Toshkent&month=4

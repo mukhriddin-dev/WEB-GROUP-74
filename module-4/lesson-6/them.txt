@@ -1,0 +1,18 @@
+1.shalow clone and deep clone
+1.2 JSON format
+
+2.CallBack function 
+2.1 Closure
+2.2 CallBack hell
+
+
+
+3.Promise
+Pending
+fullfiled
+rejected
+
+
+
+4.Synchronous and Asynchronous What is the difference between synchronous and asynchronous code in JavaScript ?
+5.fetch

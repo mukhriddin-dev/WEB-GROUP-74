@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+   <link rel="stylesheet" href="./styles/style.css" />
+   <title>lesson-3</title>
+</head>
+
+<body>
+   <header class="bg-success shadow">
+      <div class="container">
+         <nav class="nav p-3">
+            <h3 class="text-light nav-logo">MOVIES-APP</h3>
+
+
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <div class="modal-window hide-modal">
+         <div class="modal-contents position-relative">
+            <button class="btn btn-danger hide position-absolute end-0 mt-2 me-2">
+               close
+            </button>
+            <div class="modal-wrapper p-4">
+         
+            </div>
+         </div>
+      </div>
+
+      <section class="main p-4">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 p-3 bg-white m-1 shadow">
+                  <form action="#">
+                     <label for="film_name" class="w-100 my-2">
+                        <input type="text" id="search" placeholder="Enter film name ..." class="form-control p-3" />
+                     </label>
+                     <label for="film_name" class="w-100 my-2">
+                        <input min="1" max="10" type="number" placeholder="Enter film rating ..."
+                           class="form-control p-3" id="rating" />
+                     </label>
+                     <select id="category" class="form-select p-3 my-2">
+                        <option disabled selected>Select film category</option>
+                     </select>
+                     <button class="btn btn-success w-100 my-2 p-3" id="result">
+                        SEARCH
+                     </button>
+                     <div class="count shadow p-3 bg-white"></div>
+                  </form>
+               </div>
+               <div class="col-md-8 p-3 bg-info m-1 shadow">
+                  <div class="notif"></div>
+                  <div class="wrapper"></div>
+               </div>
+               
+            </div>
+         </div>
+      </section>
+   </main>
+</body>
+<script src="./db.js"></script>
+<script src="./scripts/utils.js"></script>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,6 @@
+1. this context => 
+2. Function constructor
+3. OOP  class , inheriting from class
+4. build method with prototype 
+
+4. Bind , Call , Apply

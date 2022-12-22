@@ -1,0 +1,40 @@
+header {
+   width: 100%;
+   background-color: seagreen;
+
+   .nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      height: 70px;
+      align-items: center;
+
+      &__logo {
+         color: #000;
+
+         &:hover {
+            color: rgba(0, 0, 0, 0.627);
+         }
+      }
+
+      &__ul {
+         display: flex;
+         width: 35%;
+         justify-content: space-between;
+
+         &--list {
+            list-style-type: none;
+            text-transform: uppercase;
+
+            &-item {
+               text-decoration: none;
+               color: #000;
+
+               &:hover {
+                  color: #fff;
+               }
+            }
+         }
+      }
+   }
+}

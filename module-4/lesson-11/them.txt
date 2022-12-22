@@ -1,0 +1,33 @@
+
+1.  variables => let , var , const 
+2.  condition => if else , switch case , ternary , 
+3.  loops => for , while , do while , 
+4.  array => [] , new Array();
+5.  function => decloration, expression , arrow , Inwoked Immdently function 
+6.  Object => new Object ,  {} => Object methods => keys , values , Entries , fromEntries , 
+7.  Higher order functions  => filter , map , forEach , reduce , =>
+8.  Optional chaining ?
+9.  DOM => selector , setAttribute, getAttribute , classList , add , remove , toogle , conatins , 
+10. Asynchron function  => 
+11. Promise => 
+12. api => 
+13. Dynamic elements => 
+14. Rest and Spread => 
+15. Deep copy and Shalow copy
+16. Destructuring
+17. C R U D  => POST , GET , PUT , DELETE 
+18. loagical operators => && , || , !
+
+
+2. CONTEXT THIS => this keyword
+
+(function(){
+
+},())
+
+
+
+
+
+
+

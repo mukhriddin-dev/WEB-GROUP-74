@@ -1,0 +1,35 @@
+.box{
+   padding: 20px;
+   background-color: rgb(217, 217, 217);
+   box-shadow: 0 0 10px rgb(69, 69, 69);
+   height: 300px;
+   width: 800px;
+   margin: 30px;
+   transition: all 0.4s ease-in-out;   
+}
+
+button{
+   padding: 12px;
+   width: 120px;
+   background-color: aqua;
+   margin: 5px;
+}
+
+.btn-danger{
+   background-color: red;
+   color:#fff;
+}
+
+.btn-success{
+   background-color: rgb(16, 139, 22);
+   color:#fff;
+}
+
+.btn-warning{
+   background-color: rgb(255, 221, 0);
+   color:#000;
+}
+
+.swipe{
+   transform: translateY(-200%);
+}

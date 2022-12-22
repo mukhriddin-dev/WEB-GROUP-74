@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>CRUD APP</title>
+</head>
+
+<body>
+
+  <header class="bg-success">
+    <div class="container">
+      <nav class="nav p-3 bg-success w-100 d-flex justify-content-between">
+        <h3 class="nav__logo">
+          TASK MANAGER APP
+        </h3>
+        <div class="login-box d-flex gap-2 align-items-center">
+          <p id="user_name" class="bg-warning rounded-pill p-2 mt-2">Admin</p>
+          <button class="btn btn-danger" id="logout">Log out</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="editsend">
+
+          <label for="lesson" class="w-100 my-2">
+            <span>Lesson title</span>
+            <input id="editlesson" type="text" class="form-control p-3 w-100">
+          </label>
+
+          <label for="runtime" class="w-100 my-2">
+            <span>Lesson runtime</span>
+            <input id="edittime" type="text" class="form-control p-3 w-100">
+          </label>
+
+          <button type="submit" class="btn btn-success w-100 p-3 my-3" data-bs-dismiss="modal">
+            ADD
+          </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section id="main">
+      <div class="container mt-5">
+        <div class="row gap-9">
+          <div class="col-md-4 p-3 shadow bg-light">
+
+            <form id="send">
+
+              <label for="lesson" class="w-100 my-2">
+                <span>Lesson title</span>
+                <input id="lesson" type="text" class="form-control p-3 w-100">
+              </label>
+
+              <label for="runtime" class="w-100 my-2">
+                <span>Lesson description</span>
+                <input id="runtime" type="text" class="form-control p-3 w-100">
+              </label>
+
+              <button type="submit" class="btn btn-success w-100 p-3 my-3">
+                ADD
+              </button>
+            </form>
+          </div>
+          <div class="col-md-8 shadow bg-light">
+            <table class="table table-striped table-hover table-bordered table-responsive">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Lesson title</th>
+                  <th>Run time</th>
+                  <th>Edit</th>
+                  <th>Delete</th>
+                </tr>
+              </thead>
+
+
+
+              <tbody id="data">
+
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+</body>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/bootstrap.js"></script>
+<script src="./main.js"></script>
+
+</html>

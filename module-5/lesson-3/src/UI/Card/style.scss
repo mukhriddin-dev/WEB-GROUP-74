@@ -1,0 +1,54 @@
+.card {
+   background-color: #fff;
+   width: 320px;
+   margin: 10px;
+
+   &-img {
+      filter: brightness(0.8);
+      cursor: pointer;
+      width: 100%;
+
+      &:hover {
+         filter: brightness(1)
+      }
+   }
+
+   &-body {
+      padding: 12px;
+
+      .card-title {
+         margin: 12px 0;
+      }
+
+      .card-text {
+         margin: 10px 0;
+         color: rgba(0, 0, 0, 0.6)
+      }
+
+      .card--btn-wrapper {
+         display: flex;
+         justify-content: space-evenly;
+         margin-top: 20px;
+
+         &-danger {
+            background-color: crimson;
+            padding: 12px;
+            cursor: pointer;
+
+            &:hover {
+               background-color: rgb(255, 76, 76);
+            }
+         }
+
+         &-success {
+            background-color: rgb(26, 158, 68);
+            padding: 12px;
+            cursor: pointer;
+
+            &:hover {
+               background-color: rgb(110, 255, 108);
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+{
+  "lessons": [
+    {
+      "title": "4y5ery4",
+      "time": "54wy4",
+      "id": 1
+    },
+    {
+      "title": "t43345",
+      "time": "4t34",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "lorem ipsum dolor sit amet, consectetur adipis",
+      "deadline": "2022-12-10"
+    }
+  ]
+}
